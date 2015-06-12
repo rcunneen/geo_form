@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+        </div>
+        <div id="content">
+	<!--Google form for SP study site-->
+	<div id="form">
+	<script type="text/javascript">var submitted=false;</script> <!--Setting submitted to false for custom submission set-up-->
+	<!--Hidden iframe so that custom submission form can be displayed after form is submitted-->
+	<iframe name="hidden_iframe" id="hidden_iframe"
+		style="display:none;" onload="if(submitted)
+		{window.location='formSubmit.html';}"></iframe>
+	<!--Form content, copy and pasted from "View live form" in google form and inspecting source-->
+	<form action="https://docs.google.com/forms/d/1Q5glCBoqEXNpaNGrlXdC3Wff7ezLR6cyvVN_os-4ODY/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;"> <!--Edited to allow custom submission page-->
+		<ol role="list" class="ss-question-list" style="padding-left: 0">
+		<div class="ss-form-question errorbox-good" role="listitem">
+			<div dir="ltr" class="ss-item  ss-text">
+				<div class="ss-form-entry">
+					<label class="ss-q-item-label" for="entry_2003610964">
+						<div class="ss-q-title">Name of study site</div>
+						<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+					</label>
+					<input type="text" name="entry.2003610964" value="" class="ss-q-short" id="entry_2003610964" dir="auto" aria-label="Name of study site  " title="">
+				</div>
+			</div>
+		</div>
+		<div class="ss-form-question errorbox-good" role="listitem">
+			<div dir="ltr" class="ss-item  ss-radio">
+				<div class="ss-form-entry">
+					<label class="ss-q-item-label" for="entry_2008576199">
+						<div class="ss-q-title">Question 1</div>
+						<div class="ss-q-help ss-secondary-text" dir="ltr">please enter an answer here</div>
+					</label>
+					<ul class="ss-choices" role="radiogroup" aria-label="Question 1 please enter an answer here ">
+						<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1618442942" value="Option 1" id="group_1618442942_1" role="radio" class="ss-q-radio" aria-label="Option 1"></span>
+							<span class="ss-choice-label">Option 1</span>
+							</label>
+						</li>
+						<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1618442942" value="Option 2" id="group_1618442942_2" role="radio" class="ss-q-radio" aria-label="Option 2"></span>
+							<span class="ss-choice-label">Option 2</span>
+							</label>
+						</li>
+						<li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1618442942" value="Option 3" id="group_1618442942_3" role="radio" class="ss-q-radio" aria-label="Option 3"></span>
+							<span class="ss-choice-label">Option 3</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="ss-form-question errorbox-good" role="listitem">
+			<div dir="ltr" class="ss-item  ss-paragraph-text">
+				<div class="ss-form-entry">
+					<label class="ss-q-item-label" for="entry_798643209">
+						<div class="ss-q-title">Question 2</div>
+						<div class="ss-q-help ss-secondary-text" dir="ltr">another question to answer</div>
+					</label>
+					<textarea name="entry.798643209" rows="8" cols="0" class="ss-q-long" id="entry_798643209" dir="auto" aria-label="Question 2 another question to answer "></textarea>
+				</div>
+			</div>
+		</div>
+			
+			
+			<!--Instructions for entering site onto map-->
+			<div id="instruct">
+            <p>Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered  </br>
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered</br>  
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered  </br>
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered</br>  
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered  </br>
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered</br>  
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered  </br>
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered</br>  
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered  </br>
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered</br>  
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered  </br>
+            Please follow these instructions, using the map on the right, to enter your study site location.</br>
+            Can right click on the marker or polygon and select “Delete” if it is entered</br>  
+            </p>
+			</div>
+			
+			
+			<!--Umap for collaborators to enter a marker and polygon of study site location-->
+    		<div id="umap">
+    		<!--Edited provided embed to allow map editing and scrollWheelZoom-->
+			<iframe width="100%" height="600px" frameBorder="0" src="https://umap.openstreetmap.fr/en/map/sp-study-sites_43345?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=true&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+			</div>
+			
+			<!--Submit button at bottom of the page-->
+			<input type="hidden" name="draftResponse" value="[,,&quot;2314903162777418692&quot;]
+				">
+			<input type="hidden" name="pageHistory" value="0">
+			<input type="hidden" name="fbzx" value="2314903162777418692">
+			<div class="ss-item ss-navigate">
+				<table id="navigation-table">
+					<tbody>
+						<tr>
+							<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+								<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</ol>
+	</form>
+	</div>
+	
+	<div id="footer">
+	    <p>Form submitted to: </br>
+	    Rebecca Seth </br>
+	    Data Manager</br>
+	    Telethon Kids Institute
+	    </p>
+	</div>
+	</div>
+</body>
+</html>
